@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TheNetOtter</title>
+        <meta charset="UTF-8" />
+        <!--you can add a style element here but I made a separate css file instead-->
+        <link rel="stylesheet" href="thenetotterstyles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+        <body>
+            <main>
+                <video autoplay muted loop id="offset">
+                    <source src="offsetDancing.mp4" type="video/mp4">
+                </video>
+
+                <div class="clearFooter">
+                    <h1>Too Much Sauce</h1>
+                    <p>They say he's just too nice with it. What do <em>you</em> think?</p>
+                    
+                </div>
+        
+                 <!--this tag represents the main part of the website-->
+                
+                <section>
+                <div class="title">
+                <h1>NetOtter</h1>
+                    <!--comment
+                    <h2>By: BrainScum</h2>-->
+                </div>
+                <div class="github">
+                    <p>Click <a target=_blank href="https://youtu.be/xNIM453_dgg">here</a> for pure enlightenment.</p>
+                </div>
+                    <div class="image">
+                        <!--img tags dont need a closing tag (known as self closing tag). It needs an alt: description if image
+                        doesn't load or viewer can't see it
+                        <figure>
+                            <a><img href ="https://google.com" src ="https://tinyurl.com/2p98m7en" alt ="emoji otter chilling in a lake"></a> 
+                            <figcaption>otters are <em>cooler</em> than a bitch</figcaption>
+                        </figure>
+                        target attribute blank opens in new tab and href is the link. the anchor element is embedded
+                        in the p element-->
+                        
+                        <!--the link goes in the first tag of the anchor element-->
+                    </div>
+                </section>
+                <section>
+                    <div class = "lists">
+                        <!--<h2>Stuff:</h2>
+                            unordered list
+                            <ul>
+                                <li>github</li>
+                                <li>other stuff</li>
+                            </ul>-->
+                            <!--ordered list
+                            <ol>
+                                <li>one</li>
+                                <li>two</li>
+                                <li>three</li>
+                            </ol>-->
+                    </div>    
+                    </section>
+                    <section>
+                        <div class="input">
+                            <!--<form> (fill this out for a place to submit things)-->
+                            <div class="radio">
+                            <fieldset>
+                                <legend>Enough Sauce or Too Much?</legend>
+                                <label> <!--label allows users to click the word instead of only the radio button-->
+                                    <input id ="enough" type="radio" name="enough-tooMuch" value="enough" checked> Enough
+                                </label>
+                                <label>
+                                    <input id ="tooMuch" type="radio" name="enough-tooMuch" value="tooMuch"> Too Much
+                                </label>
+                            </fieldset>
+                            </div>
+                            <!--<fieldset>
+                                <label>
+                                    <input id ="sandwich" type ="checkbox" value="sandwich" checked> sandwich
+                                </label>
+                                <label>
+                                    <input id ="sushi" type ="checkbox" value="sushi"> sushi
+                                </label>
+                                <label>
+                                    <input id ="pasta dish" type ="checkbox" value="pasta dish"> pasta dish
+                                </label>
+                            </fieldset>-->
+                            <div class="submit">
+                            
+                            <input type ="text" name ="random info" placeholder="Submit info" required>
+                            <button type="submit">Submit</button>
+                            </div>
+                        </div>    
+                    </section>
+            </main>
+        </body>
+</html>
